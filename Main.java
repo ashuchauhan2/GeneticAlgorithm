@@ -66,7 +66,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Select crossover method: (1) One Point Crossover, (2) Uniform Crossover");
         int crossoverMethod = scanner.nextInt();
-        int maxGenerations = 127; //chose 127 cus 27 is my fav number and some seeds needed close to 120 to reach the final solution I think?
+        int maxGenerations = 127;
         while (gen < maxGenerations) {
             getElites();
             System.out.println("Generation: " + gen +
